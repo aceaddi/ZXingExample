@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_create_two_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成" />
+
+    <EditText 
+        android:id="@+id/et_tow_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入内容"
+        />
+    <ImageView 
+        android:id="@+id/img_create_tow_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:id="@+id/tv_two_code_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="二维码内容显示"
+        />
+</LinearLayout>
